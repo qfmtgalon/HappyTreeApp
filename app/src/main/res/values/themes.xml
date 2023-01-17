@@ -25,12 +25,14 @@
         <item name="windowNoTitle">true</item>
     </style>
 
+    // Cardview
     <style name="CardViewStyle" parent="Widget.MaterialComponents.CardView">
         <item name="cardCornerRadius">20dp</item>
         <item name="cardElevation">4dp</item>
         <item name="cardBackgroundColor">@color/white</item>
     </style>
 
+    // Buttons
     <style name="button" parent="Widget.MaterialComponents.Button">
         <item name="backgroundTint">@color/colorPrimaryDark</item>
         <item name="android:textSize">14dp</item>
@@ -41,14 +43,29 @@
         <item name="android:elevation">7dp</item>
     </style>
 
+    // Text Button
     <style name="textButton" parent="Widget.AppCompat.Button.Borderless">
         <item name="android:textSize">14dp</item>
         <item name="android:textColor">@color/colorPrimaryDark</item>
         <item name="fontFamily">@font/montserrat</item>
         <item name="android:textAllCaps">false</item>
         <item name="android:textStyle">bold</item>
-
     </style>
+
+    // TextView
+    <style name="titleTextView" parent="Widget.MaterialComponents.TextView">
+        <item name="android:fontFamily">@font/lato_bold</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">50dp</item>
+    </style>
+    <style name="subheading" parent="Widget.MaterialComponents.TextView">
+        <item name="android:fontFamily">@font/lato</item>
+        <item name="android:textColor">@color/colorSecondaryVariant</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">20dp</item>
+    </style>
+
 
     <style name="Theme.HappyTree.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
